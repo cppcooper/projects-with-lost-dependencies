@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Graphical">
+      <UniqueIdentifier>{1476100a-c9b0-4c3c-84f3-4876b2ce4504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphical\Fundamentals">
+      <UniqueIdentifier>{72f5188e-0fd4-459a-8e3c-82795a1c197f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphical\Fundamentals\3D">
+      <UniqueIdentifier>{37c60b9a-dbb6-407c-a5a8-e2e33b22909a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphical\Fundamentals\2D">
+      <UniqueIdentifier>{da4572fa-e1f8-4326-88d5-da68bda7dcac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphical\Fundamentals\Interface">
+      <UniqueIdentifier>{c25f8e38-c700-4b58-9485-ea1f5265a27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphical\Managers">
+      <UniqueIdentifier>{4f062676-2e57-4948-9506-4921cfd8ddda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Systems">
+      <UniqueIdentifier>{3dfd3a77-0332-4c22-ba58-cd5c57eab67d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Systems\Managers">
+      <UniqueIdentifier>{ea01a873-f53a-4337-9912-726e5cd6cc27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Systems\Engine Framework">
+      <UniqueIdentifier>{3157df9a-96fe-4975-815f-cbd378f69bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{78f75982-57cf-48e5-9666-ed1b85241b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphical">
+      <UniqueIdentifier>{948bcbe3-32ed-4b4d-98e4-fa08970722ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphical\Fundamentals">
+      <UniqueIdentifier>{8fbe73a2-91c9-4699-b150-7dd972ce8dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphical\Fundamentals\2D">
+      <UniqueIdentifier>{8b272695-9faa-44ca-bcbe-6c710f1847fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphical\Fundamentals\3D">
+      <UniqueIdentifier>{92070f50-2c91-492a-847c-c74466343a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphical\Fundamentals\Interface">
+      <UniqueIdentifier>{e0ab3625-8e40-4ee3-a4b5-34097243d52b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphical\Managers">
+      <UniqueIdentifier>{b9443921-9b50-4d0a-99ec-2117c61d60d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{60873fc2-0cef-4a3d-ace4-dec4a984173a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems">
+      <UniqueIdentifier>{ad18fb1f-837f-4aa7-83c2-57e10aa1dd5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\Engine Framework">
+      <UniqueIdentifier>{3d5e3b95-586e-4960-a52f-8fabffad4847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\Managers">
+      <UniqueIdentifier>{1d616775-4009-4534-b422-985bd9224bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Custom Code">
+      <UniqueIdentifier>{48682dbc-63ec-4e2f-81fc-3fece7fce755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Custom Code">
+      <UniqueIdentifier>{363a8e7b-c7d1-48ad-980f-c4fcef4b52f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Custom Code\Data Manipulation">
+      <UniqueIdentifier>{a692b898-061b-464f-84d8-c0432f364171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Custom Code\Data Storage">
+      <UniqueIdentifier>{313c2ab2-fce8-4bf9-8c4b-62c24c53e69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Custom Code\Data Manipulation">
+      <UniqueIdentifier>{ef41a6d3-3b88-4b92-9490-df023b6ae203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Custom Code\Data Storage">
+      <UniqueIdentifier>{2646fdaa-ed7e-486e-9804-2010c83b825d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mesh_mgr.cpp">
+      <Filter>Source Files\Graphical\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader_Manager.cpp">
+      <Filter>Source Files\Graphical\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texture_mgr.cpp">
+      <Filter>Source Files\Graphical\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mesh.cpp">
+      <Filter>Source Files\Graphical\Fundamentals\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui.cpp">
+      <Filter>Source Files\Graphical\Fundamentals\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ffont.cpp">
+      <Filter>Source Files\Graphical\Fundamentals\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vbo_data.cpp">
+      <Filter>Source Files\Graphical\Fundamentals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GLSLProgram.cpp">
+      <Filter>Source Files\Graphical\Fundamentals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3d_engine.cpp">
+      <Filter>Source Files\Systems\Engine Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine_funcs.cpp">
+      <Filter>Source Files\Systems\Engine Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera_controls.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input_mgr.cpp">
+      <Filter>Source Files\Systems\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util_func.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sprite_mgr.cpp">
+      <Filter>Source Files\Graphical\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sprite.cpp">
+      <Filter>Source Files\Graphical\Fundamentals\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WordSearch.cpp">
+      <Filter>Source Files\Custom Code\Data Manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sprite_batch.cpp">
+      <Filter>Source Files\Graphical\Fundamentals\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WordBox.cpp">
+      <Filter>Source Files\Custom Code\Data Storage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\GLSLProgram.h">
+      <Filter>Header Files\Graphical\Fundamentals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mesh.h">
+      <Filter>Header Files\Graphical\Fundamentals\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texture_mgr.h">
+      <Filter>Header Files\Graphical\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader_Manager.h">
+      <Filter>Header Files\Graphical\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene_nodes.h">
+      <Filter>Header Files\Graphical\Fundamentals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui.h">
+      <Filter>Header Files\Graphical\Fundamentals\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mesh_mgr.h">
+      <Filter>Header Files\Graphical\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vbo_data.h">
+      <Filter>Header Files\Graphical\Fundamentals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file_mgr.h">
+      <Filter>Header Files\Systems\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input_mgr.h">
+      <Filter>Header Files\Systems\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3d_engine.h">
+      <Filter>Header Files\Systems\Engine Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game.h">
+      <Filter>Header Files\Systems\Engine Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OGLheaders.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ffont.h">
+      <Filter>Header Files\Graphical\Fundamentals\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util_func.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sprite_mgr.h">
+      <Filter>Header Files\Graphical\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sprite.h">
+      <Filter>Header Files\Graphical\Fundamentals\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WordSearch.h">
+      <Filter>Header Files\Custom Code\Data Manipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WordBox.h">
+      <Filter>Header Files\Custom Code\Data Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bitpackers.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sprite_batch.h">
+      <Filter>Header Files\Graphical\Fundamentals\2D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Libraries\$dll\FreeImage.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Libraries\$dll\glew32.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

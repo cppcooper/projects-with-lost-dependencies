@@ -1,0 +1,13 @@
+*.exe
+*.dll
+*.lib
+*.so
+*.obj
+*.log
+*.sdf
+*.idb
+*.pdb
+*.ilk
+bin
+build
+Assets
